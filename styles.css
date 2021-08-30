@@ -2,3 +2,26 @@ body {
     font-family: , 'raleway',verdana,sans-serif;
     margin: 0;
 }
+ div {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.fa-map-marker-alt {
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-radius: 15px 0 0 15px;
+}
+strong {
+
+  color: #0065FC;
+
+}
+i class {
+
+  color: #0065FC;
+
+}
