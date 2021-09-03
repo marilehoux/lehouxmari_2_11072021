@@ -17,11 +17,14 @@ body {
 }
 strong {
 
-  color: #0065FC;
+  color: red;
 
 }
 i class {
 
   color: #0065FC;
 
+}
+h2 {
+  color: blue
 }
