@@ -23,7 +23,7 @@ h3
 #navigation {
   display: flex;
   margin-left: 40px;
-  margin-left: 40px;
+  margin-right: 40px;
 }
 
 #menu {
@@ -39,7 +39,7 @@ a
 
 a:visited
   {
-    color: black
+    color: black;
     text-decoration:none;
   }
 
@@ -47,9 +47,7 @@ a:hover
   {
   text-decoration: overline;
   }
-.icon_filter {
-  background-color: #DEEBFF;
-}
+
 
 #hebergement1 {
   display: flex;
@@ -63,8 +61,9 @@ a:hover
   display: flex;
   background-color:#F2F2F2;
   justify-content: flex-start;
-
+  text-align: left;
 }
+
 #apropos {
   display: flex;
   flex-direction: column;
@@ -84,13 +83,23 @@ a:hover
   flex-direction: column;
   justify-content: flex-start;
   width: 33%
+  padding: 10px
+}
+.foot_menu {
+  list-style-type: none;
+  text-align: left;
 
 }
-
-.fas fa-map-marker-alt {
+.fa-map-marker-alt {
     background-color: #F2F2F2;
     padding: 15px;
     border-radius: 15px 0 0 15px;
+}
+.icon_filter {
+  background-color: #DEEBFF;
+}
+.fa-info {
+  color: #0065FC;
 }
 
 .etoiles {
