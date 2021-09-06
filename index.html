@@ -15,20 +15,22 @@
   <header>
     <!-- le logo et le menu de navigation avec 3 entrées -->
     <!--logo-->
-    <div class="logo">
+    <div id="navigation">
       <img src="images/logo/reservia.svg?sanitize=true" alt="logo_Reservia"/>
       <!--problème affichage logo sur github.io-->
-    </div>
 
-    <!--menu de navigation-->
-        <nav id="navigation">
-          <ul>
+      <!--menu de navigation-->
+
+          <nav>
+          <ul id="menu">
             <li><a href="#hebergement">H&eacute;bergements</a></li>
             <li><a href="#activites">Activit&eacute;s</a></li>
             <li><a href="#inscrire">S&apos;inscrire</a>
             <li class="line"></li>
           </ul>
         </nav>
+      </div>
+
   </header>
 
       <section id="filtre">
@@ -48,6 +50,7 @@
             </button>
           </div>
           <p class="filter_name">Filtres</p>
+
           <div class="filter">
             <button class-"icon_filter">
               <i class="fas fa-money-bill-wave"></i>
@@ -91,7 +94,7 @@
     le lien du header doit pointer sur marseille en desktop
     et sur populaires en iphone-->
 
-      <div id="hebergeme"></div>
+      <div id="hebergement1">
         <section id="hebergements_marseille">
 
       <!--section 1 hébergements à Marseille-->
@@ -110,6 +113,7 @@
                   <i class="fas fa-star"></i>
                   <i class="far fa-star"></i>
               </div>
+            </div>
 
           <div class="h_marseille">
             <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
@@ -188,9 +192,11 @@
           <h3>Afficher plus</h3>
 
           </section>
+        </div>
 
+  <div id="hebergement2">
           <section id="hebergements_populaires">
-            <div id="hebergement2"></div>
+
         <!--section2 Les plus populaires-->
         <div>
         <h2>Les plus populaires</h2>
@@ -225,7 +231,7 @@
                  <i class="fas fa-star"></i>
                  <i class="far fa-star"></i>
              </div>
-
+           </div>
          <div class="h_populaire">
             <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
             alt="Hôtel Tout bleu et Blanc">
@@ -238,10 +244,10 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="far fa-star"></i>
-                </div>
-
+              </div>
+            </div>
               </section>
-    </section>
+    </div>
 
       <section id="activites">
       <!--nouvelle section activités à Marseille  pleine largeur et 4 colonnes-->
@@ -275,9 +281,11 @@
           Parc Longchamp
         </div>
       </section>
+    </section>
 
 
     <footer>
+      <div id="pieddepage">
       <nav id="apropos">
         <h3>A propos</h3>
         <ul>
@@ -302,6 +310,8 @@
           <li>Nous contacter</li>
         </ul>
       </nav>
+    </div>
+
   </footer>
 
   </body>
