@@ -1,12 +1,12 @@
 body {
-    font-family: , 'raleway',verdana,sans-serif;
+    font-family:"raleway",sans-serif;
     margin: 0;
 }
 h1
 {
   font-weight: bold;
   font-style: normal;
-  font-size: 1,3em;
+  font-size: 1,5em;
 }
 h2
 {
@@ -16,39 +16,95 @@ h2
   }
 h3
 {
-  font-size: 0,8em;
+  font-size: 1em;
   font-style: normal;
   font-weight: bold;
 }
+h4 {
+  font-size: 0,6em;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 #navigation {
   display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #menu {
-  display: flex;
-  flex-wrap: nowrap;
+  display: inline-flex;
   list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+
 }
-a
+#inscrire {
+  font-weight: bold;
+  color: #0065FC;
+  border-top: none;
+}
+nav a
   {
-  color: blue;
+  color: black;
   text-decoration:none;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   }
+nav a:hover
+    {
+    text-decoration: none;
+    color:#0065FC;
+    border-top: 2px solid #0065FC;
+    }
 
-a:visited
-  {
-    color: black;
-    text-decoration:none;
-  }
-
-a:hover
-  {
-  text-decoration: overline;
-  }
+#filtre {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#form_recherche {
+  display:flex;
+}
 
 
+.fa-map-marker-alt {
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-radius: 15px 0 0 15px;
+}
+input {
+  border: none;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px 15px 15 px 15px;
+}
+ span {
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 15px 15px 0;
+}
+
+.filter {
+  display:inline-flex;
+  font-weight: bold;
+}
+.filter_name{
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1,2em;
+}
 #hebergement1 {
   display: flex;
   background-color: #F2F2F2;
@@ -90,11 +146,7 @@ a:hover
   text-align: left;
 
 }
-.fa-map-marker-alt {
-    background-color: #F2F2F2;
-    padding: 15px;
-    border-radius: 15px 0 0 15px;
-}
+
 .icon_filter {
   background-color: #DEEBFF;
 }

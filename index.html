@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Reservia</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +22,11 @@
 
       <!--menu de navigation-->
 
-          <nav>
+        <nav>
           <ul id="menu">
             <li><a href="#hebergement">H&eacute;bergements</a></li>
             <li><a href="#activites">Activit&eacute;s</a></li>
-            <li><a href="#inscrire">S&apos;inscrire</a>
-            <li class="line"></li>
+            <li id="inscrire">S&apos;inscrire</li>
           </ul>
         </nav>
       </div>
@@ -36,19 +36,19 @@
       <section id="filtre">
 
         <!--un bloc comprenant du texte, un champ de recherche et 4 filtes-->
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+        <h4>En plein centre ville ou en pleine nature</h4>
         <!-- champ de recherche, logo pointeur, champ de saisie et bouton rechercher-->
 
-          <div id="form_recherche">
-            <div class="icon_position">
-              <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <input type="text"/>
-            <button>
-              <span>Rechercher</span> <i class="fas fa-search"></i>
-            </button>
-          </div>
+        <div id="form_recherche">
+            <i class="fas fa-map-marker-alt"></i>
+
+            <input type="text" value="Marseille, France">
+
+            <span>Rechercher</span>
+        </div>
+
+
           <p>Filtres</p>
 
           <div class="filter">
