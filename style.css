@@ -162,49 +162,50 @@ input {
     font-size: 16px;
     padding: 7px 11px 7px 11px;
 }
-
+#hebergement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 #hebergement1 {
   display: flex;
   background-color: #F2F2F2;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
+  justify-content: flex-start;
   margin: 50px;
   border-radius: 20px;
-  width: 0,6em;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 70%;
 
 }
+
+
+
 #hebergements_marseille {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #F2F2F2;
+
 
 }
-.titre_heberg {
-  padding-left: 40px;
 
-}
 
 .h_marseille {
 
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: block;
   background-color: white;
   border-radius: 20px;
-
   padding: 5px;
   margin-bottom: 20px;
 }
+
 .h_marseille img
 {
-  width: 100%;
-  height: 15vw;
+  width: 250px;
+  height: 12vw;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   border-color : white;
@@ -221,31 +222,42 @@ input {
     background-color: #F2F2F2;
     flex-wrap: column;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    margin: 50px;
+    justify-content: flex-start;
     border-radius: 20px;
-    width: 0,6em;
+    margin: 50px;
+    width: 30%;
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
-
-.h_populaire {
-
-  flex-wrap: row;
+#hebergements_populaires {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+
+}
+.h_populaire {
+  display: flex;
+  justify-content: flex-start;
   background-color: white;
   border-radius: 20px;
-  width: 30%;
+  width: 100%;
   padding: 5px;
   margin-bottom: 20px;
 }
 
 .h_populaire img
 {
-  width: 70%;
+  width: 40%;
   height: 15vw;
   object-fit: cover;
   border-radius: 20px 0px 0px 20px;
   border-color : white;
+}
+.sous_titre_h_pop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #pieddepage {
   display: flex;
