@@ -6,7 +6,7 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
 }
-em strong {
+em  {
   font-weight: bold;
   font-style: normal;
   font-size: 1,2rem;
@@ -23,9 +23,8 @@ h3 {
 h4 {
   font-size: 1rem;
   font-style: normal;
-  font-weight: normal;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  font-weight: bold;
+
 }
 
 
@@ -75,7 +74,6 @@ nav a:hover
 
 #form_recherche {
   display:flex;
-  margin-bottom: 50px;
 
 }
 .fa-map-marker-alt {
@@ -162,36 +160,30 @@ input {
     font-size: 16px;
     padding: 7px 11px 7px 11px;
 }
-#hebergement {
+.hebergement {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-#hebergement1 {
+  }
+.hebergement1 {
   display: flex;
   background-color: #F2F2F2;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 50px;
+  margin: 20px 0px 5px 50px;
   border-radius: 20px;
-
   padding-left: 40px;
   padding-right: 40px;
   width: 70%;
 
 }
 
-
-
-#hebergements_marseille {
+.hebergements_marseille {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-
-
+  justify-content: flex-start;
+  justify-items:
 }
-
 
 .h_marseille {
 
@@ -200,6 +192,7 @@ input {
   border-radius: 20px;
   padding: 5px;
   margin-bottom: 20px;
+
 }
 
 .h_marseille img
@@ -217,43 +210,48 @@ input {
 .etoiles .far {
   color: #E2F2F2;
 }
-#hebergement2 {
+.hebergement2 {
     display: flex;
     background-color: #F2F2F2;
-    flex-wrap: column;
-    flex-direction: row;
-    justify-content: flex-start;
+
+    flex-direction: column;
+
+    justify-content:flex-start;
     border-radius: 20px;
-    margin: 50px;
+    margin: 20px 50px 5px 50px;
     width: 30%;
+
     padding-left: 40px;
     padding-right: 40px;
 
 }
-#hebergements_populaires {
+.hebergements_populaires {
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 
 }
+.titre_pop {
+  display: inline-flex;
+  justify-content: right;
+  align-items: baseline;
+
+}
 .h_populaire {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: white;
   border-radius: 20px;
   width: 100%;
   padding: 5px;
 
 }
-.titre_pop {
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
+
 .h_populaire img
 {
   width: 40%;
-  height: 10vw;
   object-fit: cover;
   border-radius: 20px 0px 0px 20px;
   border-color : white;
@@ -261,15 +259,52 @@ input {
 .sous_titre_h_pop {
   display: flex;
   flex-direction: column;
+  flex-flow: column;
+  justify-content: space-between;
 
 }
 
+.photos_activites img {
+  width: 250px;
+  height: 500px;
+  object-fit: cover;
+}
+.activites {
+  display: flex;
+  flex-direction: column;
 
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.photos_activites {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.colonne {
+  width: 25%;
+}
 
+  border-radius: 20px 20px 20px 20px;
 
-
-
-
+.port img {
+  height: 500px;
+}
+.fort img {
+  height: 20px;
+}
+.iles img {
+  height: 40%;
+}
+.parc img {
+  height: 100%;
+}
+.garde img {
+  height: 50%;
+}
+.parcl img {
+  height: 50%;
+}
 #pieddepage {
   display: flex;
   background-color:#F2F2F2;

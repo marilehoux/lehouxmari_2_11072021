@@ -66,7 +66,7 @@
           </header>
       </section>
 
-    <section id="hebergement">
+    <section class="hebergement">
 
       <!--un bloc constitué de sous bloc, affiché en 2/3 1/3,
       d'une part hebergements_marseille avec 6 éléments
@@ -74,12 +74,12 @@
     le lien du header doit pointer sur marseille en desktop
     et sur populaires en iphone-->
 
-      <div id="hebergement1">
+      <div class="hebergement1">
 
   <div class="titre_heberg"><h2>Hébergements à Marseille</h2></div>
 
 
-      <section id="hebergements_marseille">
+      <section class="hebergements_marseille">
 
       <!--section 1 hébergements à Marseille-->
 
@@ -178,8 +178,8 @@
 
 </div>
 
-  <div id="hebergement2">
-          <section id="hebergements_populaires">
+  <div class="hebergement2">
+
 
         <!--section2 Les plus populaires-->
         <div class="titre_pop">
@@ -187,12 +187,12 @@
         <i class="fas fa-chart-line"></i>
         <!--icon en black-->
         </div>
-
+<section class="hebergements_populaires">
         <div class="h_populaire">
             <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
              alt="Hôtel Le soleil du matin">
             <div class="sous_titre_h_pop">
-              <h3class="nom_hotel">H&ocirc;tel Le soleil du matin</h3>
+              <h3 class="nom_hotel">H&ocirc;tel Le soleil du matin</h3>
            <p class="prix_nuitée">Nuit à partir de 128<strong>€</strong></p>
 
              <div class="etoiles">
@@ -236,40 +236,48 @@
               </div>
               </div>
             </div>
-              </section>
+
     </div>
-</section>
-      <section id="activites">
+  </section>
+    </section>
+
+      <section class="activites">
       <!--nouvelle section activités à Marseille  pleine largeur et 4 colonnes-->
       <h2>Activités à Marseille</h2>
-        <!--première colonne-->
-        <div>
-        <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"><br>
-        Vieux Port
-        </div>
+      <div class="photos_activites">  <!--première colonne-->
+              <div class="colonne">
+                <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="port" alt="Vieux Port">
+                <h3>Vieux Port</h3>
+              </div>
         <!--deuxième colone-->
-        <div>
-          <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"><br>
-          Fort de Pomègues
-        </div>
-        <div>
-          <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul"><br>
-          Îles du Frioul
-        </div>
+              <div class="colonne">
+                <div>
+                  <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="fort" alt="Fort de Pomègues">
+                  <h4>Fort de Pomègues</h4>
+                </div>
+                <div>
+                  <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="iles" alt="Îles du Frioul">
+                  <h3>Îles du Frioul</h3>
+                </div>
+              </div>
         <!--troisième colonne-->
-        <div>
-          <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"><br>
-          Parc National des Calanques
-        </div>
+            <div class="colonne">
+              <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="parc" alt="Parc National des Calanques">
+              <h3>Parc National des Calanques</h3>
+            </div>
         <!--quatrième et dernière colonne-->
-        <div>
-          <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"><br>
-          Notre-Dame-de-la-Garde
-        </div>
-        <div>
-          <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"><br>
-          Parc Longchamp
-        </div>
+            <div class="colonne">
+              <div>
+                <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="garde" alt="Notre-Dame-de-la-Garde">
+                <h3>Notre-Dame-de-la-Garde</h3>
+              
+
+                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="parcl" alt="Parc Longchamp">
+                <h3>Parc Longchamp</h3>
+              </div>
+            </div>
+      </div>
+
       </section>
 
 
