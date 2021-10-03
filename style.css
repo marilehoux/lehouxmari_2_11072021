@@ -195,12 +195,13 @@ input {
   border-radius: 20px;
   padding: 5px;
   margin-bottom: 20px;
+  width: 30%;
 
 }
 
 .h_marseille img
 {
-  width: 250px;
+  width: 100%;
   height: 12vw;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
@@ -213,9 +214,7 @@ input {
 .non {
   color: #E2F2F2;
 }
-.etoiles .far {
-  color: #E2F2F2;
-}
+
 .hebergement2 {
     display: flex;
     background-color: #F2F2F2;
@@ -369,7 +368,6 @@ input {
   flex-direction: row;
   background-color:#F2F2F2;
   justify-content: flex-start;
-  text-align: left;
 
 }
 
