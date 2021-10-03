@@ -223,7 +223,7 @@ input {
 
     background-color: #F2F2F2;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     border-radius: 20px;
     margin-left: 40px;
     margin-right: 50px;
@@ -241,6 +241,7 @@ input {
   justify-content: space-around;
   align-items: center;
   border: 3px solid red;
+  height: 100%;
 
 }
 .titre_pop {
@@ -256,11 +257,10 @@ input {
 .h_populaire {
   display: flex;
   flex-direction: row;
-
   background-color: white;
   border-radius: 20px;
   width: 90%;
-  height:35%;
+  height:30%;
   padding: 5px;
 
 }
