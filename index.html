@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Reservia</title>
+    <head>
+        <meta charset="utf-8">
+        <title>Reservia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1a22d99172.js" crossorigin="anonymous"></script>
+    </head>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/1a22d99172.js" crossorigin="anonymous"></script>
-  </head>
+    <body>
 
-  <body>
-
-      <header>
-          <!-- le logo et le menu de navigation avec 3 entrées -->
-          <!--logo-->
-          <div id="navigation">
-            <img src="images/logo/Reservia.svg?sanitize=true" alt="logo_Reservia"/>
-              <!--problème affichage logo sur github.io-->
-              <!--menu de navigation-->
-          <nav>
-              <ul id="menu">
-                <li><a href="#hebergement">H&eacute;bergements</a></li>
-                <li><a href="#activites">Activit&eacute;s</a></li>
-                <li id="inscrire">S&apos;inscrire</li>
-              </ul>
-            </nav>
-          </div>
-          <!--la div id navigation contient le logo et le menu de nav-->
+        <header>
+            <!-- le logo et le menu de navigation avec 3 entrées -->
+            <!--logo-->
+            <div id="navigation">
+                <img id="logo" src="images/logo/Reservia.svg?sanitize=true" alt="logo_Reservia"/>
+                <!--problème affichage logo sur github.io-->
+                <!--menu de navigation-->
+                <nav>
+                    <ul id="menu">
+                        <li><a href="#hebergement">H&eacute;bergements</a></li>
+                        <li><a href="#activites">Activit&eacute;s</a></li>
+                        <li id="inscrire">S&apos;inscrire</li>
+                    </ul>
+                </nav>
+            </div>
+            <!--la div id navigation contient le logo et le menu de nav-->
         </header>
 
       <section id="filtre">
@@ -41,17 +41,18 @@
             <i class="fas fa-map-marker-alt"></i>
             <input type="text" value="Marseille, France">
             <span>Rechercher</span>
+            <button type="submit" class="icone_loupe"><i class="fas fa-search"></i></button>
         </div>
         <!--la ligne de filtres, oragnisée en liste-->
-        <div class="filtres">
+            <div class="filtres">
                 <h3>Filtres</h3>
-                    <ul>
-                      <li><i class="fas fa-money-bill-wave ifiltre"></i><a href="#">&Eacuteconomique</a></li>
-                      <li><i class="fas fa-child ifiltre"></i><a href="#">Familial</a></li>
-                      <li><i class="fas fa-heart ifiltre"></i><a href="#">Romantique</a></li>
-                      <li><i class="fas fa-dog ifiltre"></i><a href="#">Animaux autoris&eacutes</a></li>
-                    </ul>
-          </div>
+                <ul>
+                    <li><i class="fas fa-money-bill-wave ifiltre"></i><a href="#">&Eacuteconomique</a></li>
+                    <li><i class="fas fa-child ifiltre"></i><a href="#">Familial</a></li>
+                    <li><i class="fas fa-heart ifiltre"></i><a href="#">Romantique</a></li>
+                    <li><i class="fas fa-dog ifiltre"></i><a href="#">Animaux autoris&eacutes</a></li>
+                </ul>
+            </div>
           <!--logo information et texte -->
           <div class="info">
                 <i class="fas fa-info"></i>

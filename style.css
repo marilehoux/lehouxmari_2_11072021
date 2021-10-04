@@ -104,6 +104,10 @@ input {
     border-radius: 0 15px 15px 0;
 }
 
+button {
+  display: none;
+}
+
 /*---------------------ligne de filtres---------------------------*/
 
 
@@ -205,9 +209,7 @@ input {
   width: 30%;
 
 }
-.h_marseille img a:hover {
-   border: 3px solid green;
-}
+
 
 .h_marseille img
 {
@@ -309,7 +311,7 @@ input {
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     box-shadow: 1px 1px 8px #e2e2e2
-    
+
 }
 
 .activites {
@@ -376,6 +378,7 @@ input {
   width: 100%;
 
 }
+
 .pieddepage {
   display: flex;
   flex-wrap:  wrap;
@@ -394,3 +397,84 @@ input {
 .foot_menu h4 {
   margin: 0px 0px 10px 0px;
 }
+
+/*----------------------media queries-------------------*/
+
+@media screen and (max-width: 1340px) {
+
+
+    .hebergements_marseille div {
+        height: 25vw;
+        width: 17vw;
+        margin: 10px;
+    }
+    .h_marseille {
+        height:90%;
+    }
+    .h_populaire {
+        height: 22vw;
+    }
+
+    .h_populaire img {
+        height: 100%;
+    }
+
+    .etoiles {
+        with:100%;
+    }
+
+    .activites article {
+        width: 17vw;
+        height: auto;
+    }
+
+    .activites img {
+        width: 100%;
+    }
+
+}
+
+
+@media all and (max-width: 800px){
+
+  #inscrire {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  #logo {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+
+  #navigation {
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  nav li {
+    width: 50%;
+  }
+  span {
+    display: none;
+  }
+
+  button {
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding: 15px 15px 15px 15px;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 15px 15px 0;
+  }
