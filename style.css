@@ -37,6 +37,9 @@ h4 {
   align-items: center;
 }
 
+#navigation2 {
+    display: none;
+}
 #menu {
   display: inline-flex;
   list-style-type: none;
@@ -399,6 +402,7 @@ button {
 }
 
 /*----------------------media queries-------------------*/
+/*----------------------tablette paysage-------------------*/
 
 @media screen and (max-width: 1340px) {
 
@@ -419,9 +423,6 @@ button {
         height: 100%;
     }
 
-    .etoiles {
-        with:100%;
-    }
 
     .activites article {
         width: 17vw;
@@ -433,29 +434,18 @@ button {
     }
 
 }
+/*----------------------tablette protrait-------------------*/
 
+@media screen and (max-width: 1024px){
+
+}
 
 @media all and (max-width: 800px){
 
-  #inscrire {
-    position: absolute;
-    top: 30px;
-    right: 20px;
-  }
-  #logo {
-    position: absolute;
-    top: 30px;
-    right: 20px;
-  }
 
-  #navigation {
-    display: block;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 20px;
-    margin-right: 20px;
 
   }
+  
 
   nav {
     flex-wrap: wrap;
