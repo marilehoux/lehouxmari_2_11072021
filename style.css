@@ -438,11 +438,24 @@ button {
 
 @media screen and (max-width: 1024px){
 
+    .hebergement {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hebergement1 {
+
+      width: 85%;
+    }
+    .hebergement2 {
+
+        width: 85%;
+      }
+
 }
 
 @media all and (max-width: 800px){
 
-
+}
 
   nav {
     flex-wrap: wrap;
