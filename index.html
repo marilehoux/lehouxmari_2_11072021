@@ -8,7 +8,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/1a22d99172.js" crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/5b8c91df18.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -18,7 +19,7 @@
             <!--logo-->
             <div id="navigation">
                 <img id="logo" src="images/logo/Reservia.svg?sanitize=true" alt="logo_Reservia"/>
-                <!--problème affichage logo sur github.io-->
+
                 <!--menu de navigation-->
                 <nav>
                     <ul id="menu">
@@ -28,11 +29,14 @@
                     </ul>
                 </nav>
             </div>
+
             <div id="navigation2">
-                <img id="logo" src="images/logo/Reservia.svg?sanitize=true" alt="logo_Reservia"/>
-                <h3 id="inscrire">S&apos;inscrire</h3>
-                <!--problème affichage logo sur github.io-->
-                <!--menu de navigation-->
+                <div class="en_tete">
+                    <img id="logo" src="images/logo/Reservia.svg?sanitize=true" alt="logo_Reservia"/>
+                    <h3 id="inscrire">S&apos;inscrire</h3>
+                </div>
+
+                <!--menu de navigation petit écran-->
                 <nav>
                     <ul id="menu">
                         <li><a href="#hebergement">H&eacute;bergements</a></li>
@@ -43,34 +47,35 @@
             <!--la div id navigation contient le logo et le menu de nav-->
         </header>
 
-      <section id="filtre">
-        <!-- section comprend un bloc comprenant du texte, un champ de recherche et 4 filtes-->
+              <section id="filtre">
+                <!-- section comprend un bloc comprenant du texte, un champ de recherche et 4 filtes-->
 
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-        <h4>En plein centre ville ou en pleine nature</h4>
-        <!-- champ de recherche, logo pointeur, champ de saisie et bouton rechercher-->
-        <div id="form_recherche">
-            <i class="fas fa-map-marker-alt"></i>
-            <input type="text" value="Marseille, France">
-            <span>Rechercher</span>
-            <button type="submit" class="icone_loupe"><i class="fas fa-search"></i></button>
-        </div>
-        <!--la ligne de filtres, oragnisée en liste-->
-            <div class="filtres">
-                <h3>Filtres</h3>
-                <ul>
-                    <li><i class="fas fa-money-bill-wave ifiltre"></i><a href="#">&Eacuteconomique</a></li>
-                    <li><i class="fas fa-child ifiltre"></i><a href="#">Familial</a></li>
-                    <li><i class="fas fa-heart ifiltre"></i><a href="#">Romantique</a></li>
-                    <li><i class="fas fa-dog ifiltre"></i><a href="#">Animaux autoris&eacutes</a></li>
-                </ul>
-            </div>
-          <!--logo information et texte -->
-          <div class="info">
-                <i class="fas fa-info"></i>
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>
-          </div>
-        </section>
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <h4>En plein centre ville ou en pleine nature</h4>
+                <!-- champ de recherche, logo pointeur, champ de saisie et bouton rechercher-->
+                <div id="form_recherche">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" value="Marseille, France">
+                    <span class="recherche">Rechercher</span>
+                    <div type="submit" class="icone_loupe"><i class="fas fa-search"></i></div>
+                </div>
+
+                <!--la ligne de filtres, oragnisée en liste-->
+                    <div class="filtres">
+                        <h3>Filtres</h3>
+                        <ul>
+                            <li><i class="fas fa-money-bill-wave ifiltre"></i><a href="#">&Eacuteconomique</a></li>
+                            <li><i class="fas fa-child ifiltre"></i><a href="#">Familial</a></li>
+                            <li><i class="fas fa-heart ifiltre"></i><a href="#">Romantique</a></li>
+                            <li><i class="fas fa-dog ifiltre"></i><a href="#">Animaux autoris&eacutes</a></li>
+                        </ul>
+                    </div>
+                  <!--logo information et texte -->
+                  <div class="info">
+                        <i class="fas fa-info"></i>
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                  </div>
+                </section>
         <!--fin de la section filtres-->
 
     <section class="hebergement">
@@ -83,20 +88,21 @@
                       <div class="titre_heberg"><h2>Hébergements à Marseille</h2></div>
                 <section class="hebergements_marseille">
                         <!--section 1 hébergements à Marseille-->
-                      <div class="h_marseille">
+
+                    <div class="h_marseille">
 
                       <a href="#"><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                       alt="Auberge la Cannebière"></a>
                       <h3 class="nom_hotel">Auberge la Cannebière</h3>
                       <p class="prix_nuitée">Nuit à partir de <strong>25€</strong></p>
 
-                      <div class="etoiles">
-                        <i class="oui fas fa-star"></i>
-                        <i class="oui fas fa-star"></i>
-                        <i class="oui fas fa-star"></i>
-                        <i class="oui fas fa-star"></i>
-                        <i class="non fas fa-star"></i>
-                      </div>
+                          <div class="etoiles">
+                            <i class="oui fas fa-star"></i>
+                            <i class="oui fas fa-star"></i>
+                            <i class="oui fas fa-star"></i>
+                            <i class="oui fas fa-star"></i>
+                            <i class="non fas fa-star"></i>
+                          </div>
                     </div>
 
                     <div class="h_marseille">
