@@ -442,10 +442,13 @@ input {
         display: flex;
         flex-direction: column-reverse;
             border: 3px solid black;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
     }
     .hebergement1 {
             border: 2px solid grey;
-      width: 80vw;
+      width: 100%;
       background-color: white;
     }
     .hebergements_marseille div {
