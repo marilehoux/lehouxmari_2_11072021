@@ -432,7 +432,9 @@ input {
     .activites img {
         width: 100%;
     }
-
+    .footer {
+        width: auto;
+    }
 }
 /*----------------------tablette portrait-------------------*/
 
@@ -455,14 +457,15 @@ input {
     background-color: white;
       width: 100vw;
     }
-    .hebergements_marseille div {
-        height: 30vw;
+    .h_marseille {
         width: 90vw;
-        border: 1px solid blue;
+        box-shadow: 1px 1px 8px #e2e2e2;
     }
+
 
     .hebergements_marseille img {
         height : 60%;
+        object-fit:  cover;
     }
 
     .hebergement2 {
