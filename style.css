@@ -536,14 +536,14 @@ input {
 
     }
 
-    #navigation2 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+#navigation2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
-        justify-content: space-between;
-        align-items: flex-start;
-        }
+    justify-content: space-between;
+    align-items: flex-start;
+    }
 .en_tete {
     display: flex;
     flex-direction: row;
@@ -561,12 +561,12 @@ input {
   width: 100%;
 
 }
-  nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
+nav {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
 }
 nav li {
     display: flex;
