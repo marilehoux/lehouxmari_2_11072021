@@ -466,24 +466,22 @@ input {
     }
 
     .hebergement2 {
-        border: 2px solid grey;
+
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     border-radius: 0px 0px 0px 0px;
     width: 100vw;
 
+
       }
 
     .hebergements_populaires {
         margin-bottom: 20px;
-        border: 1px solid blue;
-
-
+        height: 80vw;
     }
     .h_populaire {
         margin-bottom: 10px;
-        border: 1px solid blue;
-        height: 30%;
+
     }
     # activites {
         margin: 0px 0px 50px 0px;
@@ -497,8 +495,8 @@ input {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
         align-content: flex-start;
 
     }
