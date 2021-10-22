@@ -1,6 +1,7 @@
 body {
     font-family:"raleway",sans-serif;
     margin: 0;
+    border: 3px solid red;
 }
 h1 {
   font-weight: bold;
@@ -205,19 +206,20 @@ input {
 .h_marseille {
 
   display: block;
+  justify-content: space-around;
   background-color: white;
   border-radius: 20px;
   padding: 5px;
   margin-bottom: 20px;
   width: 30%;
+  height: 45%;
 
 }
-
 
 .h_marseille img
 {
   width: 100%;
-  height: 12vw;
+  height: 60%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   border-color : white;
@@ -261,7 +263,6 @@ input {
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  padding-left: 15px;
 }
 
 
@@ -313,7 +314,7 @@ input {
 .activites article {
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    box-shadow: 1px 1px 8px #e2e2e2
+    box-shadow: 1px 1px 8px #e2e2e2;
 }
 
 .activites {
@@ -372,6 +373,7 @@ input {
     flex-direction: column;
     justify-content: space-between;
 }
+
 /*---------------------footer---------------------------*/
 
 .footer {
@@ -408,81 +410,72 @@ input {
 
 @media screen and (max-width: 1340px) {
 
-
-    .hebergements_marseille div {
-        height: 25vw;
-    }
-    .h_marseille {
-        height:90%;
-    }
-    .h_populaire {
-        height: 30%;
-    }
-
-    .h_populaire img {
-        height: 100%;
-    }
-
-    .activites article {
-        width: 18vw;
-        height: auto;
-    }
-
     .activites img {
-        width: 100%;
-    }
-    .footer {
-        width: auto;
-    }
-}
+           width: 100%;
+       }
+
+
+
 /*----------------------tablette portrait-------------------*/
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1300px){
 
     .hebergement {
-        display: flex;
-        flex-direction: column-reverse;
-            border: 3px solid black;
+    display: flex;
+    flex-direction: column-reverse;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    width: 100vw;
-
-
+    justify-content: flex-end;
+    width: 100%;
+    height: 3650px;
     }
     .hebergement1 {
-            border: 2px solid grey;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: white;
-      width: 100vw;
+    width: 100%;
+    border: 3px solid black;
+    height: 2450px;
     }
+
+    .hebergements_marseille {
+    justify-content: space-around;
+    height: 2100px;
+    width: 95%;
+    }
+
     .h_marseille {
-        width: 90vw;
-        box-shadow: 1px 1px 8px #e2e2e2;
+    width: 95%;
+    box-shadow: 1px 8px 8px #e2e2e2;
+    height: 350px;
+    }
+
+    .titre_heberg {
+        margin: 30px 30px 30px 30px;
+        height: 70px;
     }
 
 
-    .hebergements_marseille img {
-        height : 60%;
-        object-fit:  cover;
-    }
 
     .hebergement2 {
 
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     border-radius: 0px 0px 0px 0px;
-    width: 100vw;
-
-
-      }
-
+    width: 100%;
+    height: 1200px;
+    }
+    .titre_pop {
+        height: 10%;
+    }
     .hebergements_populaires {
         margin-bottom: 20px;
-        height: 80vw;
+        height: 90%;
     }
     .h_populaire {
         margin-bottom: 10px;
+        height: 250px;
+        box-shadow: 1px 8px 8px #e2e2e2;
 
     }
     # activites {
@@ -500,31 +493,25 @@ input {
         margin-left: 0px;
         margin-right: 0px;
         align-content: flex-start;
-
     }
 
     .activites div {
         justify-content: space-between;
-
     }
     .activites article {
-        width: 100%;
-        height : 40vw;
         margin-bottom: 20px;
+        box-shadow: 1px 8px 8px #e2e2e2;
+        width: 90%;
+        height: 250px;
+        }
+    }
 
-    }
     .activites img {
-        width: 100%;
-        height : 80%;
+        width:100%;
+        height: 190px;
+        object-fit: cover;
     }
-    .images_vertical article {
-        width: 100%;
-        height: 40vw;
-    }
-    .images_vertical img {
-        width: 100%;
-        height: 80%;
-    }
+
 
 }
 
